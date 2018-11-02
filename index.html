@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tangun</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+
+      <div id="leftMenu">
+        <a href="javascript:void(0)" class="closebtn">&times;</a>
+        <a id="homePage">Strona Główna</a>
+        <a id="contact">Kontakt</a>
+        <a href="#" class="tkd_menu">Taekwondo <span class="glyphicon glyphicon-chevron-down"></span></a>
+        <a id="slownik" target="tkdLinks" class="tkd_links">Słowniczek</a>
+        <a id="mitologia" target="tkdLinks" class="tkd_links">Mitologia</a>
+        <a id="pasy" target="tkdLinks" class="tkd_links">Pasy</a>
+        <a id="oke" target="tkdLinks" class="tkd_links">5 zasad "OKE"</a>
+        <a id="treningi">Treningi</a>
+        <a id="galeria">Galeria</a>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-1"><span id="open_menu">&#9776;</span></div>
+          <div class="col-sm-11"><img src="img/nowe_logo.png" alt="logo" class="img-responsive" id="logo" /></div>
+        </div>
+
+        <div class="container">
+
+          <div class="jumbotron" id="card1">
+
+            <div class="row" id="box-search">
+              <div class="text-center">
+                  <img src="img/top.jpg" class="img-responsive img-rounded" id="top_img" alt="Cinque Terre">
+                  <div class="caption" id="img_text">
+                    <h1>Informacje o treningach</h1>
+                  </div>
+              </div>
+
+          </div>
+          </div>
+
+          <div class="jumbotron" id="card2">
+              <h1>Treningi <small><a href="#" class="close"></a></small></h1>
+
+              <h3>Środa:</h3>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Godzina rozpoczęcia</th>
+                    <th>Godzina zakończenia</th>
+                    <th>Grupa</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="warning">
+                    <td>18:00</td>
+                    <td>19:00</td>
+                    <td>Grupa 1</td>
+                  </tr>
+                  <tr class="success">
+                    <td>19:00</td>
+                    <td>20:00</td>
+                    <td>Grupa 2</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h3>Czwartek:</h3>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Godzina rozpoczęcia</th>
+                    <th>Godzina zakończenia</th>
+                    <th>Grupa</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="warning">
+                    <td>18:00</td>
+                    <td>19:00</td>
+                    <td>Grupa 1</td>
+                  </tr>
+                  <tr class="success">
+                    <td>19:00</td>
+                    <td>20:00</td>
+                    <td>Grupa 2</td>
+                  </tr>
+                  <tr class="info">
+                    <td>20:00</td>
+                    <td>21:00</td>
+                    <td>Grupa 3</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h3>Adres <small>UL. SZKOLNA 2, BORÓWIEC</small></h3>
+              <div class="centered">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2441.008878894465!2d17.04026891569264!3d52.27954077976945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4704564d9f25e5c9%3A0xe46c009083e05acb!2sSzkolna+2%2C+62-023+Bor%C3%B3wiec!5e0!3m2!1sen!2spl!4v1540809308542" frameborder="0" id="map" allowfullscreen></iframe>
+              </div>
+          </div>
+
+          <div class="jumbotron" id="card3">
+            <h1>Kontakt <small>Trener Taekwondo: Emil Majer 3DAN</small></h1>
+            <div class="well"><b>TELEFON:</b> 508 902 511</div>
+            <div class="well"><b>MAIL:</b> emil@majer.tangun.pl</div>
+            <div class="well"><b>FACEBOOK:</b> <a href="https://www.facebook.com/ukstangun/">UKS Tangun</a></div>
+          </div>
+
+          <div class="jumbotron" id="card4">
+            <!-- Słowniczek -->
+          </div>
+
+          <div class="jumbotron" id="card5">
+            <!-- Mitologia -->
+          </div>
+
+          <div class="jumbotron" id="card6">
+            <h1>Pasy</h1>
+            <table class="table table-hover">
+             <thead>
+               <tr>
+                 <th>Pas</th>
+                 <th>Znaczenie</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td><div class="belt" style="background-color: white;"></div></td>
+                 <td>Pas biały noszony przez początkujących, oznacza czystość i otwartość na wiedzę. Tak jak czysta kartka na której zaczynają się pojawiać umiejętności zawodnika.</td>
+               </tr>
+               <tr>
+                 <td><div class="belt" style="background-color: yellow;"></div></td>
+                 <td>Pas żółty symbolizuje nasionko które zostało zasiane w adepcie Taekwondo lub piasek, jak wiadomo piasek nie jest bardzo stabilny i pewny, tak jak umiejętności zawodnika.</td>
+               </tr>
+               <tr>
+                 <td><div class="belt" style="background-color: green;"></div></td>
+                 <td>Pas zielony oznacza roślinę, która pnie się w górę i wypuszcza swoje pędy.</td>
+               </tr>
+               <tr>
+                 <td><div class="belt" style="background-color: blue;"></div></td>
+                 <td>Pas niebieski symbolizuje niebo, w którego kierunku pnie się roślina.</td>
+               </tr>
+               <tr>
+                 <td><div class="belt" style="background-color: red;"></div></td>
+                 <td>Pas czerwony (dawniej brązowy) ostrzega potencjalnych przeciwników przed umiejętnościami adepta, których użycie w walce może być dla nich niebezpieczne, w przyrodzie kolor czerwony jest kolorem ostrzegawczym. Symbolizuje on bardzo wysokie umiejętności przeciwnika.</td>
+               </tr>
+               <tr>
+                 <td><div class="belt" style="background-color: black;"></div></td>
+                 <td>Pas czarny łączy wszystkie kolory i dlatego jest kolorem mistrzów. Jest przeciwieństwem białego, co oznacza wysoki poziom wyszkolenia i wiedzy w taekwondo. Symbolizuje także brak czułości na strach oraz ciemne moce.</td>
+               </tr>
+             </tbody>
+           </table>
+          </div>
+
+          <div class="jumbotron" id="card7">
+            <!-- 5 zasad OKE< -->
+          </div>
+
+          <div class="jumbotron" id="card8">
+            <!-- Galeria -->
+          </div>
+
+        </div>
+
+      </div>
+
+  </body>
+</html>
