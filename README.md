@@ -3,6 +3,7 @@
 
 * HTML
 * CSS
+* Bootstrap
 * JavaScript
 * jQuery
 
